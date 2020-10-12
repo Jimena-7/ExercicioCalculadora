@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickDividir(View v) {
-       
+
         if(!primeiroNumero.isEmpty()) {
             operacao = "/";
             atualizarDisplay("/");
